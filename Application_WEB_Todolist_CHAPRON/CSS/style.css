@@ -1,0 +1,115 @@
+html {
+    background-image: linear-gradient(280deg,grey 20%,yellow);
+    min-height: 100%;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+div.entree{
+    display:inline-flex;
+}
+
+footer{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    vertical-align:top;
+    font-size:15px;
+    color:blue
+}
+
+footer li {
+    width:80%;
+    list-style-type:none;
+    display: inline;
+    margin: 100px;
+    text-align:center;
+}
+
+#entreetopic{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#Add{
+    border: 2px solid black;
+    width: 42px;
+    height: 42px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#Add img{
+    width: 100%;
+    height: auto;
+}
+
+#menuderoul{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#uljs li{
+    list-style-type:none;
+}
+
+#uljs li input{
+    width: 650px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+#buttondone{
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#buttondone img{
+    width: 100%;
+    height: auto;
+}
+
+#buttonremove {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#buttonremove img{
+    width: 100%;
+    height: auto;
+}
+
+#listeli{
+    display:flex;
+    flex-direction: raw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+
+}
+
+#sortietopicdone{
+    text-decoration: line-through;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> TodoList </title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <h1>Application TodoList en javascript</h1>
+        <div class="entree">
+            <input type="text" id="entreetopic" placeholder="Tâche">
+            <input type="image" id="Add" onclick="newElement()" src="./Image/Add.png">
+            <select id="menuderoul" name="menuderoul">
+                <option id="all" value="all">Toutes les Tâches</option>
+                <option id="todo" value="todo">À faire</option>
+                <option id="completed" value="completed">Fait</option>
+            </select>
+        </div>
+        
+        <div id="uljs">
+        </div>
+        
+        <footer>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Apropos">À propos</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+            
+    </body>
+    <script src="JS/script.js"></script> 
+</html>
+
+
+<!--je met ici l'appel de script car pour le localstorage je fais appel à la div 'uljs' et si je le met dans le head alors cet div n'existe pas encore et j'ai des erreurs-->
